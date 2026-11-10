@@ -62,7 +62,7 @@ void setup() {
 
 void loop() {
   // 1. Abrir la garra y preparar el brazo
-  int posicion1[] = {100, 75, 110, 90, 90};
+  int posicion1[] = {90, 90, 90, 90, 90};
   moverBrazo(posicion1, 900);
   delay(400);
 
